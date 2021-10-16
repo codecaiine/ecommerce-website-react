@@ -9,10 +9,18 @@ const Wrapper = styled.div`
     padding: 20px 10px;
 `;
 
+const Left = styled.div``;
+const center = styled.div``;
+const right = styled.div``;
+
+const 
+
 const Navbar = () => (
   <Container>
     <Wrapper>
-      Navbar
+       <left>left</left>
+       <center>Centre</center>
+       <right>Right</right>
     </Wrapper>
   </Container>
 );
