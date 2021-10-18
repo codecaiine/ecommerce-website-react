@@ -7,20 +7,26 @@ const Container = styled.div`
 
 const Wrapper = styled.div`
     padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
 `;
 
-const Left = styled.div``;
-const center = styled.div``;
-const right = styled.div``;
-
-const 
+const Left = styled.div`
+    flex: 1;
+`;
+const Center = styled.div`
+    flex: 1;
+`;
+const Right = styled.div`
+    flex: 1;
+`;
 
 const Navbar = () => (
   <Container>
     <Wrapper>
-       <left>left</left>
-       <center>Centre</center>
-       <right>Right</right>
+      <Left>left</Left>
+      <Center>Centre</Center>
+      <Right>Right</Right>
     </Wrapper>
   </Container>
 );
