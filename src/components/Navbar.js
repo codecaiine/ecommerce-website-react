@@ -11,6 +11,11 @@ const Wrapper = styled.div`
     justify-content: space-between;
 `;
 
+const Language = `
+    font-size: 14px;
+    cursor: pointer;
+`;
+
 const Left = styled.div`
     flex: 1;
 `;
@@ -24,7 +29,13 @@ const Right = styled.div`
 const Navbar = () => (
   <Container>
     <Wrapper>
-      <Left>left</Left>
+      <Left>
+        <Language>EN</Language>
+        <SearchContainer>
+          input
+          icon
+        </SearchContainer>
+      </Left>
       <Center>Centre</Center>
       <Right>Right</Right>
     </Wrapper>
