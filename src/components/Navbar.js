@@ -1,4 +1,4 @@
-import SearchIcon from '@mui/icons-material/Search';
+import { Search } from '@material-ui/icons';
 import React from 'react';
 import styled from 'styled-components';
 
@@ -16,7 +16,7 @@ const Wrapper = styled.div`
     justify-content: space-between;
 `;
 
-const Language = `
+const Language = styled.span`
     font-size: 14px;
     cursor: pointer;
 `;
@@ -38,7 +38,7 @@ const Navbar = () => (
         <Language>EN</Language>
         <SearchContainer>
           input
-          <SearchIcon />
+          <Search />
         </SearchContainer>
       </Left>
       <Center>Centre</Center>
