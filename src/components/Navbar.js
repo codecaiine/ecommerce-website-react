@@ -38,6 +38,10 @@ const Center = styled.div`
     flex: 1;
 `;
 
+const Logo = styled.h1`
+    font-weight: bold; 
+`;
+
 const Right = styled.div`
     flex: 1;
 `;
@@ -52,7 +56,7 @@ const Navbar = () => (
           <Search />
         </SearchContainer>
       </Left>
-      <Center>Centre</Center>
+      <Center><Logo>My Logo</Logo></Center>
       <Right>Right</Right>
     </Wrapper>
   </Container>
