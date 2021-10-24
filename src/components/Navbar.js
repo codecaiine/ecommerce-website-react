@@ -19,7 +19,7 @@ const Input = styled.input`
 `;
 
 const Wrapper = styled.div`
-    padding: 20px 10px;
+    padding: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -36,6 +36,7 @@ const Left = styled.div`
 `;
 const Center = styled.div`
     flex: 1;
+    text-align: center;
 `;
 
 const Logo = styled.h1`
@@ -44,6 +45,11 @@ const Logo = styled.h1`
 
 const Right = styled.div`
     flex: 1;
+`;
+
+const MenuItem = styled.div`
+    font-size: 14px;
+    cursor: pointer;
 `;
 
 const Navbar = () => (
@@ -57,7 +63,12 @@ const Navbar = () => (
         </SearchContainer>
       </Left>
       <Center><Logo>My Logo</Logo></Center>
-      <Right>Right</Right>
+      <Right>
+        <MenuItem>Register</MenuItem>
+        <MenuItem>Login</MenuItem>
+        <MenuItem>
+        </MenuItem>
+      </Right>
     </Wrapper>
   </Container>
 );
