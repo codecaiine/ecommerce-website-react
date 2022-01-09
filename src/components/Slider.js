@@ -30,12 +30,18 @@ const Wrapper = styled.div`
 `;
 
 const Slider = styled.div`
+display: flex;
+align-items: center;
+`;
+ 
+const ImageContainer = styled.div`
+flex: 1;
 `;
 
-const ImageContainer = styled.div`
-`;
+const Image = styled.div``;
 
 const DetailContainer = styled.div`
+flex: 1;
 `;
 
 const Slider = () => (
@@ -43,7 +49,12 @@ const Slider = () => (
     <Arrow direction="left">
       <ArrowLeftOutlined />
     </Arrow>
-    <Wrapper></Wrapper>
+    <Wrapper>
+        <ImageContainer>
+            <Image src="https://avatars.githubusercontent.com/u/6615394?s=400&u=726d3c804c97e6fa8d2b540d5ff0b93940eaf626&v=4"/>
+        </ImageContainer>
+        <DetailContainer></DetailContainer>
+    </Wrapper>
     <Arrow direction="right">
       <ArrowRightOutlined />
     </Arrow>
