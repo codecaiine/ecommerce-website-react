@@ -50,6 +50,10 @@ flex: 1;
 padding: 50%;
 `;
 
+const Title = styled.h1``;
+const Desc = styled.p``;
+const Button = styled.button``;
+
 const Slider = () => (
   <Container>
     <Arrow direction="left">
