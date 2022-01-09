@@ -10,7 +10,10 @@ const Arrow = styled.div`
 width: 50px;
 height: 50px;
 background-color: #fff7f7;
-border_raduis: 50%;
+border-raduis: 50%;
+display: flex;
+aligns-item: center;
+justify-content: center;
 `;
 
 const Slider = () => (
