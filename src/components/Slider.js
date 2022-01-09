@@ -50,10 +50,12 @@ const Slider = () => (
       <ArrowLeftOutlined />
     </Arrow>
     <Wrapper>
-      <ImageContainer>
-        <Image src="https://i.pinimg.com/564x/e7/b6/45/e7b6458fd21eaa3355c144bbf73ba330.jpg" />
-      </ImageContainer>
-      <DetailContainer />
+      <Slide>
+        <ImageContainer>
+          <Image src="https://i.pinimg.com/564x/e7/b6/45/e7b6458fd21eaa3355c144bbf73ba330.jpg" />
+        </ImageContainer>
+        <DetailContainer />
+      </Slide>
     </Wrapper>
     <Arrow direction="right">
       <ArrowRightOutlined />
