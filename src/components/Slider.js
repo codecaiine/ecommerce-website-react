@@ -15,14 +15,18 @@ border-raduis: 50%;
 display: flex;
 aligns-item: center;
 justify-content: center;
+position: absolute;
+top: 0;
+bottom: 0;
+margin: auto;
 `;
 
 const Slider = () => (
   <Container>
-    <Arrow>
+    <Arrow direction="left">
       <ArrowLeftOutlined />
     </Arrow>
-    <Arrow>
+    <Arrow direction="right">
       <ArrowRightOutlined />
     </Arrow>
   </Container>
