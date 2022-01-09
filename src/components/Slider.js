@@ -55,6 +55,9 @@ font-size: 70px;
 `;
 const Desc = styled.p`
 margin: 50px 0px;
+font-size: 20px;
+font-weight: 500;
+letter-spacing: 3px;
 `;
 const Button = styled.button`
 padding: 10px;
