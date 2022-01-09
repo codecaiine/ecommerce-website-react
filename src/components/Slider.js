@@ -5,6 +5,7 @@ const Container = styled.div`
 width: 100%;
 height: 100vh;
 display: flex;
+background: coral;
 `;
 const Arrow = styled.div`
 width: 50px;
