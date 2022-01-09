@@ -30,18 +30,24 @@ const Wrapper = styled.div`
 `;
 
 const Slide = styled.div`
+width: 100vw;
+height: 100vh;
 display: flex;
 align-items: center;
 `;
 
 const ImageContainer = styled.div`
+height: 100%;
 flex: 1;
 `;
 
-const Image = styled.div``;
+const Image = styled.div`
+height: 80%;
+`;
 
 const DetailContainer = styled.div`
 flex: 1;
+padding: 50%;
 `;
 
 const Slider = () => (
