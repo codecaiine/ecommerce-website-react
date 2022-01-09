@@ -29,11 +29,11 @@ const Wrapper = styled.div`
  height: 100%;
 `;
 
-const Slider = styled.div`
+const Slide = styled.div`
 display: flex;
 align-items: center;
 `;
- 
+
 const ImageContainer = styled.div`
 flex: 1;
 `;
@@ -50,10 +50,10 @@ const Slider = () => (
       <ArrowLeftOutlined />
     </Arrow>
     <Wrapper>
-        <ImageContainer>
-            <Image src="https://avatars.githubusercontent.com/u/6615394?s=400&u=726d3c804c97e6fa8d2b540d5ff0b93940eaf626&v=4"/>
-        </ImageContainer>
-        <DetailContainer></DetailContainer>
+      <ImageContainer>
+        <Image src="https://i.pinimg.com/564x/e7/b6/45/e7b6458fd21eaa3355c144bbf73ba330.jpg" />
+      </ImageContainer>
+      <DetailContainer />
     </Wrapper>
     <Arrow direction="right">
       <ArrowRightOutlined />
