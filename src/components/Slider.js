@@ -29,6 +29,15 @@ const Wrapper = styled.div`
  height: 100%;
 `;
 
+const Slider = styled.div`
+`;
+
+const ImageContainer = styled.div`
+`;
+
+const DetailContainer = styled.div`
+`;
+
 const Slider = () => (
   <Container>
     <Arrow direction="left">
