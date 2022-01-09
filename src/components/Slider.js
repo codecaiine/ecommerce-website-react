@@ -19,8 +19,8 @@ position: absolute;
 top: 0;
 bottom: 0;
 margin: auto;
-left: ${(props) => props.direction === "left" && "10px"};
-right: ${(props) => props.direction === "right" && "10px"};
+left: ${(props) => props.direction === 'left' && '10px'};
+right: ${(props) => props.direction === 'right' && '10px'};
 `;
 
 const Slider = () => (
