@@ -6,6 +6,7 @@ width: 100%;
 height: 100vh;
 display: flex;
 background: coral;
+overflow: hidden;
 `;
 const Arrow = styled.div`
 width: 50px;
@@ -27,6 +28,7 @@ right: ${(props) => props.direction === 'right' && '10px'};
 
 const Wrapper = styled.div`
  height: 100%;
+ display:flex;
 `;
 
 const Slide = styled.div`
@@ -72,27 +74,27 @@ const Slider = () => (
       <ArrowLeftOutlined />
     </Arrow>
     <Wrapper>
-      <Slide>
+      <Slide bg="f5fafd">
         <ImageContainer>
           <Image src="https://i.pinimg.com/564x/e7/b6/45/e7b6458fd21eaa3355c144bbf73ba330.jpg" />
         </ImageContainer>
         <DetailContainer>
-          <Title>Summer Sale</Title>
+          <Title>Popular Sale</Title>
           <Desc>NE ratter pas cette occassion de vous faire plaisir</Desc>
           <Button>SHOP NOW</Button>
         </DetailContainer>
       </Slide>
-      <Slide>
+      <Slide bg="fcf1ed">
         <ImageContainer>
           <Image src="https://i.pinimg.com/564x/e7/b6/45/e7b6458fd21eaa3355c144bbf73ba330.jpg" />
         </ImageContainer>
         <DetailContainer>
-          <Title>Summer Sale</Title>
+          <Title>Winter Sale</Title>
           <Desc>NE ratter pas cette occassion de vous faire plaisir</Desc>
           <Button>SHOP NOW</Button>
         </DetailContainer>
       </Slide>
-      <Slide>
+      <Slide bg="fbf0f4">
         <ImageContainer>
           <Image src="https://i.pinimg.com/564x/e7/b6/45/e7b6458fd21eaa3355c144bbf73ba330.jpg" />
         </ImageContainer>
