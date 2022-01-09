@@ -34,6 +34,7 @@ const Slider = () => (
     <Arrow direction="left">
       <ArrowLeftOutlined />
     </Arrow>
+    <Wrapper></Wrapper>
     <Arrow direction="right">
       <ArrowRightOutlined />
     </Arrow>
