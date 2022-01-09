@@ -71,7 +71,7 @@ cursor: pointer;
 
 const Slider = () => (
   <Container>
-    <Arrow direction="left">
+    <Arrow direction="left" onClick={() => handleClick("left")}>
       <ArrowLeftOutlined />
     </Arrow>
     <Wrapper>
@@ -106,7 +106,7 @@ const Slider = () => (
         </DetailContainer>
       </Slide>
     </Wrapper>
-    <Arrow direction="right">
+    <Arrow direction="right" onClick={() => handleClick("right")}>
       <ArrowRightOutlined />
     </Arrow>
   </Container>
