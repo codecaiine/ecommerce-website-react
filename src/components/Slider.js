@@ -50,9 +50,15 @@ flex: 1;
 padding: 50%;
 `;
 
-const Title = styled.h1``;
-const Desc = styled.p``;
-const Button = styled.button``;
+const Title = styled.h1`
+font-size: 70px;
+`;
+const Desc = styled.p`
+margin: 50px 0px;
+`;
+const Button = styled.button`
+padding: 10px;
+`;
 
 const Slider = () => (
   <Container>
