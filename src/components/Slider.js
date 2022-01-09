@@ -19,7 +19,7 @@ const Slider = () => (
       <ArrowLeftOutlined />
     </Arrow>
     <Arrow>
-      <ArrowRightOutlined/>
+      <ArrowRightOutlined />
     </Arrow>
   </Container>
 );
