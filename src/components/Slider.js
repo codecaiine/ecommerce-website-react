@@ -19,8 +19,14 @@ position: absolute;
 top: 0;
 bottom: 0;
 margin: auto;
+cursor: pointer;
+opacity: 0.5;
 left: ${(props) => props.direction === 'left' && '10px'};
 right: ${(props) => props.direction === 'right' && '10px'};
+`;
+
+const Wrapper = styled.div`
+ height: 100%;
 `;
 
 const Slider = () => (
