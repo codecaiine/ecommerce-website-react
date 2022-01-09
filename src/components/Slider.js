@@ -65,9 +65,9 @@ const Slider = () => (
           <Image src="https://i.pinimg.com/564x/e7/b6/45/e7b6458fd21eaa3355c144bbf73ba330.jpg" />
         </ImageContainer>
         <DetailContainer>
-            <Title></Title>
-            <Desc></Desc>
-            <Button></Button>
+            <Title>Summer Sale</Title>
+            <Desc>NE ratter pas cette occassion de vous faire plaisir</Desc>
+            <Button>SHOP NOW</Button>
         </DetailContainer>
       </Slide>
     </Wrapper>
