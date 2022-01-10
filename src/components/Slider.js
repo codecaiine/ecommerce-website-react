@@ -29,6 +29,7 @@ right: ${(props) => props.direction === 'right' && '10px'};
 const Wrapper = styled.div`
  height: 100%;
  display:flex;
+ transform: translateX(${(props) => props.slideIndex * -100}vw);
 `;
 
 const Slide = styled.div`
