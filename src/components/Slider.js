@@ -70,47 +70,51 @@ background-color: transparent;
 cursor: pointer;
 `;
 
-const Slider = () => (
-  <Container>
-    <Arrow direction="left" onClick={() => handleClick("left")}>
-      <ArrowLeftOutlined />
-    </Arrow>
-    <Wrapper>
-      <Slide bg="f5fafd">
-        <ImageContainer>
-          <Image src="https://i.pinimg.com/564x/e7/b6/45/e7b6458fd21eaa3355c144bbf73ba330.jpg" />
-        </ImageContainer>
-        <DetailContainer>
-          <Title>Popular Sale</Title>
-          <Desc>NE ratter pas cette occassion de vous faire plaisir</Desc>
-          <Button>SHOP NOW</Button>
-        </DetailContainer>
-      </Slide>
-      <Slide bg="fcf1ed">
-        <ImageContainer>
-          <Image src="https://i.pinimg.com/564x/e7/b6/45/e7b6458fd21eaa3355c144bbf73ba330.jpg" />
-        </ImageContainer>
-        <DetailContainer>
-          <Title>Winter Sale</Title>
-          <Desc>NE ratter pas cette occassion de vous faire plaisir</Desc>
-          <Button>SHOP NOW</Button>
-        </DetailContainer>
-      </Slide>
-      <Slide bg="fbf0f4">
-        <ImageContainer>
-          <Image src="https://i.pinimg.com/564x/e7/b6/45/e7b6458fd21eaa3355c144bbf73ba330.jpg" />
-        </ImageContainer>
-        <DetailContainer>
-          <Title>Summer Sale</Title>
-          <Desc>NE ratter pas cette occassion de vous faire plaisir</Desc>
-          <Button>SHOP NOW</Button>
-        </DetailContainer>
-      </Slide>
-    </Wrapper>
-    <Arrow direction="right" onClick={() => handleClick("right")}>
-      <ArrowRightOutlined />
-    </Arrow>
-  </Container>
-);
+const Slider = () => {
+  const [slideIndex, setSlideIndex] = useState(0);
+
+  return (
+    <Container>
+      <Arrow direction="left" onClick={() => handleClick('left')}>
+        <ArrowLeftOutlined />
+      </Arrow>
+      <Wrapper>
+        <Slide bg="f5fafd">
+          <ImageContainer>
+            <Image src="https://i.pinimg.com/564x/e7/b6/45/e7b6458fd21eaa3355c144bbf73ba330.jpg" />
+          </ImageContainer>
+          <DetailContainer>
+            <Title>Popular Sale</Title>
+            <Desc>NE ratter pas cette occassion de vous faire plaisir</Desc>
+            <Button>SHOP NOW</Button>
+          </DetailContainer>
+        </Slide>
+        <Slide bg="fcf1ed">
+          <ImageContainer>
+            <Image src="https://i.pinimg.com/564x/e7/b6/45/e7b6458fd21eaa3355c144bbf73ba330.jpg" />
+          </ImageContainer>
+          <DetailContainer>
+            <Title>Winter Sale</Title>
+            <Desc>NE ratter pas cette occassion de vous faire plaisir</Desc>
+            <Button>SHOP NOW</Button>
+          </DetailContainer>
+        </Slide>
+        <Slide bg="fbf0f4">
+          <ImageContainer>
+            <Image src="https://i.pinimg.com/564x/e7/b6/45/e7b6458fd21eaa3355c144bbf73ba330.jpg" />
+          </ImageContainer>
+          <DetailContainer>
+            <Title>Summer Sale</Title>
+            <Desc>NE ratter pas cette occassion de vous faire plaisir</Desc>
+            <Button>SHOP NOW</Button>
+          </DetailContainer>
+        </Slide>
+      </Wrapper>
+      <Arrow direction="right" onClick={() => handleClick('right')}>
+        <ArrowRightOutlined />
+      </Arrow>
+    </Container>
+  );
+};
 
 export default Slider;
