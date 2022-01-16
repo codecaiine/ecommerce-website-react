@@ -24,6 +24,11 @@ const Details = styled.div`
   justify-content: center;
 `;
 
+const Title = styled.h1`
+    color:white;
+    margin-bottom: 20px;
+`;
+
 const CategoryItem = ({ item }) => (
   <Container>
     <Image src={item.img} />
