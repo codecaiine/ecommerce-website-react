@@ -1,11 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-const Categories = () =>{
-    return(
-        <Container>
-            
-        </Container>
-    )
-}
+const Categories = () => (
+  <Container />
+);
 
 export default Categories;
